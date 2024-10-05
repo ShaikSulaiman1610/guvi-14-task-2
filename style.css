@@ -1,0 +1,82 @@
+/* Header styles */
+h2 {
+    text-align: center;
+    background-color: #4285f4; /* Blue color */
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Submit button styles */
+form input[type="button"] {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Table styles */
+table {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    background-color: #4285f4; /* Blue color */
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}
+
+table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+h1,p {
+    text-align: center;
+}
